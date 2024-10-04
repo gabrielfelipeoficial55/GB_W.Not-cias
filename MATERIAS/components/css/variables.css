@@ -24,4 +24,19 @@
     /* ? BOX SHADOW */
     --color-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.234);
 
+    /* ? MÉTRICAS - seção NOVO */
+
+    --border-bottom: 1px solid var(--color-dark-grayish-blue);
+    --padding-bottom: 1.75rem;
+
+}
+
+.estilos-novo {
+
+    /* ? Border-bottom - seção NOVO */
+    border-bottom: var(--border-bottom);
+
+    /* ? padding bottom - seção NOVO */
+    padding-bottom: var(--padding-bottom);
+
 }

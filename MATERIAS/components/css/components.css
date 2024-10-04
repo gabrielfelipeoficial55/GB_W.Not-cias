@@ -13,5 +13,6 @@
     border-radius: 1.5px;
     box-shadow: var(--color-box-shadow);
     cursor: pointer;
+    width: fit-content;
 
 }
