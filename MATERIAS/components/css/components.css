@@ -1,0 +1,17 @@
+/* ? COMPONENTS CSS */
+
+.button {
+
+    padding: 0.75rem 2rem;
+    background: var(--color-soft-red);
+    text-transform: uppercase;
+    color: var(--color-off-white);
+    font-size: 0.875rem;
+    letter-spacing: 0.25rem;
+    line-height: 1.5rem;
+    font-weight: var(--font-weight-medium);
+    border-radius: 1.5px;
+    box-shadow: var(--color-box-shadow);
+    cursor: pointer;
+
+}

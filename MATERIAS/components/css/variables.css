@@ -4,15 +4,15 @@
 
     /* ? COLORS PRIMARYS */
 
-    --color-Soft-Orange: #E9AB53;
-    --color-Soft-Red: #F15E50;
+    --color-soft-orange: #E9AB53;
+    --color-soft-red: #F15E50;
 
     /* ? COLORS NEUTRAL */
 
-    --color-Off-white: #FFFDFA;
-    --color-Grayish-blue: #C5C6CE;
-    --color-Dark-grayish-blue: #5D5D79;
-    --color-Dark-blue: #00001A;
+    --color-off-white: #FFFDFA;
+    --color-grayish-blue: #C5C6CE;
+    --color-dark-grayish-blue: #5D5D79;
+    --color-dark-blue: #00001A;
 
     /* ? TYPOGRAPHY */
     --font-family: "Inter", sans-serif;
@@ -20,5 +20,8 @@
     --font-weight-normal: 400;
     --font-weight-medium: 700;
     --font-weight-bold: 800;
+
+    /* ? BOX SHADOW */
+    --color-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.234);
 
 }
