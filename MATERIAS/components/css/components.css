@@ -14,5 +14,6 @@
     box-shadow: var(--color-box-shadow);
     cursor: pointer;
     width: fit-content;
+    margin-bottom: 4rem;
 
 }

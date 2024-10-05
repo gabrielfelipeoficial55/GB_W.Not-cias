@@ -13,6 +13,7 @@
     --color-grayish-blue: #C5C6CE;
     --color-dark-grayish-blue: #5D5D79;
     --color-dark-blue: #00001A;
+    --color-blur-navbar-mobile-content: rgba(0, 0, 26, 0.5);
 
     /* ? TYPOGRAPHY */
     --font-family: "Inter", sans-serif;
