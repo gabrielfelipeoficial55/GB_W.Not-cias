@@ -20,18 +20,6 @@ body {
 
 }
 
-body.menu-open::before {
-
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: calc(100vh + 100vh + 60vh);
-    top: 0;
-    left: 0;
-    background: var(--color-blur-navbar-mobile-content);
-
-}
-
 /* ? HEADER - NAVBAR */
 
 .buttons {
@@ -49,14 +37,36 @@ body.menu-open::before {
     position: fixed;
     background-color: var(--color-off-white);
     top: 0;
-    right: 0;
+    right: -16rem;
     width: 13rem;
     height: 110vh;
+    box-shadow: none;
     z-index: 2;
     
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+    transition: 1s ease-in-out;
+
+}
+
+.header-mobile .navbar.open-navbar {
+
+    right: 0;
+    box-shadow: var(--color-box-shadow-navbar);
+
+}
+
+
+.header-mobile .navbar button#button_open_navbar {
+
+    display: none;
+
+}
+
+.header-mobile .navbar button.open-button {
+
+    display: block;
 
 }
 

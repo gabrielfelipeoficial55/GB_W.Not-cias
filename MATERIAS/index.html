@@ -20,7 +20,9 @@
 
     </head>
 
-    <body class="menu-open">
+    <body>
+
+        <div class="blurs"></div>
 
         <header class="header-mobile">
 
@@ -28,7 +30,7 @@
 
             <div class="button-navbar-mobile">
                 
-                <button class="buttons">
+                <button class="buttons open-button" id="button_open_navbar">
 
                     <img class="buttons" src="./assets/icon/icon-menu.svg" alt="Menu de Navegação no Mobile">
 
@@ -36,9 +38,9 @@
             
             </div>
 
-            <nav class="navbar">
+            <nav class="navbar" id="navbar">
 
-                <button class="buttons button-close">
+                <button class="buttons button-close" id="button_close_navbar">
                 
                     <img src="assets/icon/icon-menu-close.svg" alt="Close Navbar Mobile">
                 
@@ -160,6 +162,10 @@
             </section> <!-- * ./ list-news -->
 
         </main> <!-- * ./main-->
+
+
+        <!-- ? SCRIPT PARA INTERATIVIDADE -->
+        <script src="components/js/script.js"></script>
         
     </body>
 
