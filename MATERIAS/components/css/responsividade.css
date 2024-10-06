@@ -1,17 +1,148 @@
 /* ? RESPONSIVIDADE */
 
 
-@media screen and (max-width: 375px) {
-    
+@media screen and (min-width: 1010px) {
+
+
+    .button-navbar-mobile,
+    .navbar {
+
+        display: none;
+
+    }
+
     .header-mobile {
 
         display: flex;
         justify-content: space-between;
+        gap: 20px;
+
+    }
+    
+    .header-mobile .navbar-desktop .navbar-items-desktop {
+
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin-bottom: 2rem;
+        gap: 3rem;
+
+    }
+   
+    .navbar-item a {
+
+        font-size: 0.9375rem;
+        line-height: 1.625rem;
+        color: var(--color-dark-grayish-blue);
+        transition: 0.3s ease-in-out;
 
     }
 
+    .navbar-item:hover a {
+
+        color: var(--color-soft-red);
+
+    }
+
+    .main {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.75rem;
+
+    }
+
+    .hero {
+
+        grid-column: span 2;
+
+    }
+
+    .hero-description-container {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 1.075rem;
+
+    }
+
+    .title-hero {
+
+        grid-column: 1;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+
+    }
+
+    .hero-description-container .description-hero {
+
+        grid-column: 2/-1;
+        font-size: 3.5rem;
+
+    }
     
+    .hero-description-container .button-hero {
+
+        grid-column: 2;
+        grid-row: 2;
+        align-items: center;
+        
+
+    }
+
+    .hero-description-container .button-hero {
+
+        margin-top: -20px;
+
+    }
+
+    .breadcraumb-content .header-content h2 {
+
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+
+    }
+
+    .hero-description-container .button-hero:hover {
+
+        background: var(--color-dark-blue);
+        border-radius: 40px;
+
+    }
+
+    .list-news {
+
+        display: flex;
+        gap: 1.5rem;
+    
+    }
+
+    .container-list-news-content .title-list-new-content:hover {
+
+        cursor: pointer;
+        color: var(--color-soft-red);
+
+    }
+
+}
+
+@media screen and (max-width: 1010) {
+
+    .list-news {
+
+
+        flex-direction: column;
+    
+    }
+
+}
+
+@media screen and (max-width: 1010px) {
+
+    .header-mobile .navbar-desktop {
+
+        display: none;
+    
+    }
 
 }

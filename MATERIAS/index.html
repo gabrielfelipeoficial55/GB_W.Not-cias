@@ -20,9 +20,7 @@
 
     </head>
 
-    <body>
-
-        <div class="blurs"></div>
+    <body class="container">
 
         <header class="header-mobile">
 
@@ -37,6 +35,20 @@
                 </button>
             
             </div>
+
+            <nav class="navbar-desktop">
+
+                <ul class="navbar-items-desktop">
+
+                    <li class="navbar-item"><a href="./index.html" class="links-navbar">Home</a></li>
+                    <li class="navbar-item"><a href="#" class="links-navbar">Novo</a></li>
+                    <li class="navbar-item"><a href="#" class="links-navbar">Popular</a></li>
+                    <li class="navbar-item"><a href="#" class="links-navbar">Tranding</a></li>
+                    <li class="navbar-item"><a href="#" class="links-navbar">Categorias</a></li>
+
+                </ul>
+
+            </nav>
 
             <nav class="navbar" id="navbar">
 
@@ -64,11 +76,20 @@
 
             <section class="hero">
 
-                <img src="./assets/img/image-web-3-mobile.jpg" alt="Icone de puzzle colorido">
-                <h1 class="title-hero">O futuro brilhante da Web 3.0?</h1>
-                <p class="description-hero">Nós mergulhamos na próxima evolução da web que afirma devolver o poder das plataformas para as mãos das pessoas. Mas será que ela realmente está cumprindo sua promessa?</p>
+                <picture>
+                
+                    <source media="(min-width: 700px)" srcset="./assets/img/image-web-3-desktop.jpg">
+                    <img src="./assets/img/image-web-3-mobile.jpg" alt="Icone de puzzle colorido">
+                
+                </picture>
 
-                <a href="#" class="button-hero button">Ler Mais</a>
+                <div class="hero-description-container">
+                    
+                    <h1 class="title-hero">O futuro brilhante da Web 3.0?</h1>
+                    <p class="description-hero">Nós mergulhamos na próxima evolução da web que afirma devolver o poder das plataformas para as mãos das pessoas. Mas será que ela realmente está cumprindo sua promessa?</p>
+                    <a href="#" class="button-hero button">Ler Mais</a>
+                
+                </div>
 
             </section><!-- * hero -->
 
@@ -101,67 +122,67 @@
 
             </section> <!-- * ./breadcraumb-content -->
 
-            <section class="list-news">
-
-                <div class="container-list-news">
-
-                    <div class="container-list-news-img">
-
-                        <img src="./assets/img/image-retro-pcs.jpg" alt="Imagem de computadores antigos.">
-
-                    </div> <!-- * container-list-news-img -->
-
-                    <div class="container-list-news-content">
-
-                        <strong class="number-list-news-content">01</strong>
-                        <h2 class="title-list-new-content">Revivendo PCs antigos</h2>
-                        <p class="description-list-news-content">E se PCs antigos pudessem receber peças modernas?</p>
-
-                    </div> <!-- * ./container-list-news-content -->
-                    
-                    
-
-                </div><!-- * ./ container-list-news -->
-
-                <div class="container-list-news">
-
-                    <div class="container-list-news-img">
-
-                        <img src="./assets/img/image-top-laptops.jpg" alt="Imagem de laptop modernos.">
-
-                    </div> <!-- * container-list-news-img -->
-
-                    <div class="container-list-news-content">
-
-                        <strong class="number-list-news-content">02</strong>
-                        <h2 class="title-list-new-content">Top 10 Laptops de 2022</h2>
-                        <p class="description-list-news-content">Nossas melhores escolhas para diversas necessidades.</p>
-
-                    </div> <!-- * ./container-list-news-content -->
-
-                </div><!-- * ./ container-list-news -->
-
-                <div class="container-list-news">
-
-                    <div class="container-list-news-img">
-
-                        <img src="./assets/img/image-gaming-growth.jpg" alt="Imagem de video games.">
-
-                    </div> <!-- * container-list-news-img -->
-
-                    <div class="container-list-news-content">
-
-                        <strong class="number-list-news-content">03</strong>
-                        <h2 class="title-list-new-content">O Crescimento dos Jogos</h2>
-                        <p class="description-list-news-content">Como a pandemia tem gerado novas oportunidades.</p>
-
-                    </div> <!-- * ./container-list-news-content -->
-
-                </div> <!-- * ./ container-list-news -->
-
-            </section> <!-- * ./ list-news -->
-
         </main> <!-- * ./main-->
+
+        <section class="list-news">
+
+            <div class="container-list-news">
+
+                <div class="container-list-news-img">
+
+                    <img src="./assets/img/image-retro-pcs.jpg" alt="Imagem de computadores antigos.">
+
+                </div> <!-- * container-list-news-img -->
+
+                <div class="container-list-news-content">
+
+                    <strong class="number-list-news-content">01</strong>
+                    <h2 class="title-list-new-content">Revivendo PCs antigos</h2>
+                    <p class="description-list-news-content">E se PCs antigos pudessem receber peças modernas?</p>
+
+                </div> <!-- * ./container-list-news-content -->
+                
+                
+
+            </div><!-- * ./ container-list-news -->
+
+            <div class="container-list-news">
+
+                <div class="container-list-news-img">
+
+                    <img src="./assets/img/image-top-laptops.jpg" alt="Imagem de laptop modernos.">
+
+                </div> <!-- * container-list-news-img -->
+
+                <div class="container-list-news-content">
+
+                    <strong class="number-list-news-content">02</strong>
+                    <h2 class="title-list-new-content">Top 10 Laptops de 2022</h2>
+                    <p class="description-list-news-content">Nossas melhores escolhas para diversas necessidades.</p>
+
+                </div> <!-- * ./container-list-news-content -->
+
+            </div><!-- * ./ container-list-news -->
+
+            <div class="container-list-news">
+
+                <div class="container-list-news-img">
+
+                    <img src="./assets/img/image-gaming-growth.jpg" alt="Imagem de video games.">
+
+                </div> <!-- * container-list-news-img -->
+
+                <div class="container-list-news-content">
+
+                    <strong class="number-list-news-content">03</strong>
+                    <h2 class="title-list-new-content">O Crescimento dos Jogos</h2>
+                    <p class="description-list-news-content">Como a pandemia tem gerado novas oportunidades.</p>
+
+                </div> <!-- * ./container-list-news-content -->
+
+            </div> <!-- * ./ container-list-news -->
+
+        </section> <!-- * ./ list-news -->
 
 
         <!-- ? SCRIPT PARA INTERATIVIDADE -->
