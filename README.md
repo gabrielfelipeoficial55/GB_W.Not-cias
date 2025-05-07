@@ -18,7 +18,7 @@ Criação feita por Gabriel Felipe de Oliveira Rateiro, para praticar display fl
 <br>
 
 <p align="center">
-  <img alt="projeto GB_W.Notícias" src="./assets/img/W-GB.png" width="100%">
+  <img alt="projeto GB_W.Notícias" src="./W-GB.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
